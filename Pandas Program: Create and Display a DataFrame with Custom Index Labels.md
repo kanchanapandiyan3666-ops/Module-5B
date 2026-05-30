@@ -17,8 +17,23 @@ To create and display a **DataFrame** using the **Pandas** library in Python fro
 ---
 
 ## 💻 Program
-Add code here
+```
+import pandas as pd
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie'],
+    'Age': [20, 21, 22]
+}
+
+df = pd.DataFrame(data, index=['A', 'B', 'C'])
+print(df)
+```
 
 ## Output
-
+```
+      Name  Age
+A    Alice   20
+B      Bob   21
+C  Charlie   22
+```
 ## Result
+Thus, the program has been executed successfully.
